@@ -36,3 +36,119 @@
     transform: rotate(360deg);
   }
 }
+.food{
+  color: aqua; 
+  
+}
+
+.header img{
+  
+ 
+  height:10vh;
+  border-radius: 50%;
+ }
+.main img{
+  margin: 10px;
+  width:15vw;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+.abc{
+  background-color: blue;
+}
+.main{
+align-content: center;
+display: float;
+padding-left: 17rem;
+padding-right: 17rem;
+padding-top: 9rem;
+
+}
+.main .a{
+  background-color: lightpink;
+}
+.main .b{
+  background-color: #61dafb;
+}
+.main .c{
+  background-color: aliceblue;
+}
+.main .d{
+  background-color: blanchedalmond;
+}
+.left{
+  flex-wrap: wrap;
+  position: fixed;
+  display:inline-block;
+  background-color: limegreen;
+  height: 100%;
+  width: 20vw;
+  padding-top: 7rem;
+  padding-left: 4.5rem;
+  
+}
+.left h6{
+  flex-wrap: wrap;
+  position: relative;
+  background-color: white;
+  width: 15vw;
+  color:limegreen;
+  padding: 0.7em;
+  border-radius: 55em;
+}
+.main .top-left{
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  
+  font-size:100%; 
+}
+.main .a1{
+  top:25%;
+  left: 18rem;
+}
+.main .a2{
+  top:25%;
+  left: 18rem;
+}
+.main .a3{
+  top:25%;
+  left: 18rem;
+}
+.main .a4{
+  top:56%;
+  left: 18rem;
+}
+.main .a5{
+  top:56%;
+  left: 18rem;
+}
+.main .a6{
+  top:56%;
+  left: 18rem;
+}
+.order{
+  display: inline-block;
+  top:150px;
+  right: 1rem;
+  line-height: 30px;
+}
+.right1 h4{
+  font-size: 100%;
+  position: fixed;
+  
+  right: 12rem;
+  z-index: 1000; margin: 1rem;
+}
+.right1 .edit{
+  text-emphasis-style: none;
+  font-size: 100%;
+  position: fixed;
+  top:150px;
+  z-index: 10000;
+  color: limegreen;
+  right: 1rem;
+ 
+  margin: 1rem;
+}
